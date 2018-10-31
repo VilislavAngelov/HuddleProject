@@ -6,27 +6,55 @@
   <link href="https://fonts.google.com/specimen/Open+Sans:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet"> 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Huddle landing page with single column layout</title>
 </head>
 <body>
-  <h1>Build The Community Your Fans Will Love</h1>
+    <div class="header">
+        <div class="header__logo-box">
+            <img src="images/logo.svg" alt="Logo" class="header__logo">
+        </div>
+    </div>
 
-  <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
-    your audience. Create connections with your users as you engage in genuine discussion.</p>
+    <main>
+        <section class="preview">
+            <h1 class="heading-primary">Build The Community Your Fans Will Love</h1>
+            <p class="">Huddle re-imagines the way we build communities. You have a voice, but so does 
+            your audience. Create connections with your users as you engage in genuine discussion.</p>
+    
+            <img src="images/screen-mockups.svg" alt="mockups" class="header__logo">
+        </section>
 
-  <h1>Sign Up For Early Access</h1>
-
-  <a href="#" class="btn">Register</a>
+    <section class="CTA">
+        <h1 class="heading-primary">Sign Up For Early Access</h1>
+        <input type="email" class="CTA__input" placeholder="email@example.com" id="email">
+        <button class="btn">Register</button>
+    </section>
+    </main>
 
   <footer>
 
-  About Us
-  What We Do
-  FAQ
-  Career
-  Blog
-  Contact Us
+        <div class="footer__logo-box">
+                <img src="images/logo.svg" alt="Logo" class="footer__logo">
+            </div>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">What We Do</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter-square"></i>
+    </div>
 
   &copy; 2018 Huddle Copyright
 
