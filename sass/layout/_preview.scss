@@ -1,0 +1,18 @@
+.preview {
+    text-align: center;
+    margin-bottom: 20rem;
+    &__heading {
+        font-size: 4.5rem;
+        color: $color-dark-cyan;
+        margin-bottom: 1rem;
+    }
+
+    &__description {
+        display: inline-block;
+        width: 60%;
+        font-size: 2.4rem;
+        color: $color-gray-blue;
+        margin-bottom: 7rem;
+    }
+
+}

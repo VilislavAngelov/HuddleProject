@@ -1,15 +1,17 @@
 *,
 *::after,
 *::before {
-    margin: 0px;
-    padding: 0px;
     box-sizing: inherit;
+    margin: 0;
+    padding: 1rem 5rem 1rem 5rem;
 }
 
 html {
     font-size: 62.5%;
+    padding: 0;
 }
 
 body {
     box-sizing: border-box;
+    padding: 0;
 }
