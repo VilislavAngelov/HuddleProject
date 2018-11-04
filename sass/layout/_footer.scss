@@ -13,12 +13,16 @@
 
         &-logo {
             transform: scale(0.95);
+            margin: 0;
+            padding: 0;
         }
     }
 
     &__navigation {
         list-style: none;
         display: flex;
+        margin: 0;
+        padding: 0;
 
         &-item {
             padding: 0;
@@ -40,36 +44,38 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 4rem;
+    }
+
+    &__icons-box {
     }
 
     &__icons {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
 
-        ul {
-            list-style-type: none;
-
-        }
-
-        li {
+        &-item {
             margin: 0;
             padding: 0;
         }
 
-        li a {
+        &-item a {
             padding: 0;
             margin: 0;
         }
 
-        li i {
+        &-item i {
+            font-size: 3.5rem;
             color: white;
             text-decoration: none;
             padding: 0;
-            margin: 0;
+            margin: -4rem;
+            display: block;
         }
     }
 
     &__copyright {
-        margin-top: 7rem;
-        margin-right: 7rem;
         color: white;
     }
 }
